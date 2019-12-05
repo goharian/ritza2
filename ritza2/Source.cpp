@@ -7,7 +7,7 @@ using namespace std;
 
 
 void main()
-{
+{		/*
 	char ch;
 	string wrd;
 	Trie tr;
@@ -57,5 +57,14 @@ void main()
 		default: cout << "ERROR " << endl;  break;
 		}//switch
 	} while (ch != '5');
+				*/
 
+	char ch;
+	string wrd;
+	Trie tr;
+	int comp;
+
+	tr.insert("roy");
+	tr.insert("gur");
+	
 }
